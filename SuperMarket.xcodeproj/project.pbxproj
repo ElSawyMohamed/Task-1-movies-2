@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2BC61920B34C8900867734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BC61820B34C8900867734 /* AppDelegate.swift */; };
+		EB2BC61B20B34C8A00867734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BC61A20B34C8A00867734 /* ViewController.swift */; };
+		EB2BC61E20B34C8A00867734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BC61C20B34C8A00867734 /* Main.storyboard */; };
+		EB2BC62020B34C8A00867734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2BC61F20B34C8A00867734 /* Assets.xcassets */; };
+		EB2BC62320B34C8A00867734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BC62120B34C8A00867734 /* LaunchScreen.storyboard */; };
+		EB2BC62E20B34C8A00867734 /* SuperMarketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BC62D20B34C8A00867734 /* SuperMarketTests.swift */; };
+		EB2BC63920B34C8A00867734 /* SuperMarketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BC63820B34C8A00867734 /* SuperMarketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB2BC62A20B34C8A00867734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2BC60D20B34C8900867734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2BC61420B34C8900867734;
+			remoteInfo = SuperMarket;
+		};
+		EB2BC63520B34C8A00867734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2BC60D20B34C8900867734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2BC61420B34C8900867734;
+			remoteInfo = SuperMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2BC61520B34C8900867734 /* SuperMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2BC61820B34C8900867734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB2BC61A20B34C8A00867734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2BC61D20B34C8A00867734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2BC61F20B34C8A00867734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2BC62220B34C8A00867734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB2BC62420B34C8A00867734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2BC62920B34C8A00867734 /* SuperMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2BC62D20B34C8A00867734 /* SuperMarketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketTests.swift; sourceTree = "<group>"; };
+		EB2BC62F20B34C8A00867734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2BC63420B34C8A00867734 /* SuperMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2BC63820B34C8A00867734 /* SuperMarketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarketUITests.swift; sourceTree = "<group>"; };
+		EB2BC63A20B34C8A00867734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2BC61220B34C8900867734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2BC62620B34C8A00867734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2BC63120B34C8A00867734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2BC60C20B34C8900867734 = {
+			isa = PBXGroup;
+			children = (
+				EB2BC61720B34C8900867734 /* SuperMarket */,
+				EB2BC62C20B34C8A00867734 /* SuperMarketTests */,
+				EB2BC63720B34C8A00867734 /* SuperMarketUITests */,
+				EB2BC61620B34C8900867734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2BC61620B34C8900867734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BC61520B34C8900867734 /* SuperMarket.app */,
+				EB2BC62920B34C8A00867734 /* SuperMarketTests.xctest */,
+				EB2BC63420B34C8A00867734 /* SuperMarketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2BC61720B34C8900867734 /* SuperMarket */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BC61820B34C8900867734 /* AppDelegate.swift */,
+				EB2BC61A20B34C8A00867734 /* ViewController.swift */,
+				EB2BC61C20B34C8A00867734 /* Main.storyboard */,
+				EB2BC61F20B34C8A00867734 /* Assets.xcassets */,
+				EB2BC62120B34C8A00867734 /* LaunchScreen.storyboard */,
+				EB2BC62420B34C8A00867734 /* Info.plist */,
+			);
+			path = SuperMarket;
+			sourceTree = "<group>";
+		};
+		EB2BC62C20B34C8A00867734 /* SuperMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BC62D20B34C8A00867734 /* SuperMarketTests.swift */,
+				EB2BC62F20B34C8A00867734 /* Info.plist */,
+			);
+			path = SuperMarketTests;
+			sourceTree = "<group>";
+		};
+		EB2BC63720B34C8A00867734 /* SuperMarketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BC63820B34C8A00867734 /* SuperMarketUITests.swift */,
+				EB2BC63A20B34C8A00867734 /* Info.plist */,
+			);
+			path = SuperMarketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2BC61420B34C8900867734 /* SuperMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2BC63D20B34C8A00867734 /* Build configuration list for PBXNativeTarget "SuperMarket" */;
+			buildPhases = (
+				EB2BC61120B34C8900867734 /* Sources */,
+				EB2BC61220B34C8900867734 /* Frameworks */,
+				EB2BC61320B34C8900867734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMarket;
+			productName = SuperMarket;
+			productReference = EB2BC61520B34C8900867734 /* SuperMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB2BC62820B34C8A00867734 /* SuperMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2BC64020B34C8A00867734 /* Build configuration list for PBXNativeTarget "SuperMarketTests" */;
+			buildPhases = (
+				EB2BC62520B34C8A00867734 /* Sources */,
+				EB2BC62620B34C8A00867734 /* Frameworks */,
+				EB2BC62720B34C8A00867734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2BC62B20B34C8A00867734 /* PBXTargetDependency */,
+			);
+			name = SuperMarketTests;
+			productName = SuperMarketTests;
+			productReference = EB2BC62920B34C8A00867734 /* SuperMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB2BC63320B34C8A00867734 /* SuperMarketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2BC64320B34C8A00867734 /* Build configuration list for PBXNativeTarget "SuperMarketUITests" */;
+			buildPhases = (
+				EB2BC63020B34C8A00867734 /* Sources */,
+				EB2BC63120B34C8A00867734 /* Frameworks */,
+				EB2BC63220B34C8A00867734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2BC63620B34C8A00867734 /* PBXTargetDependency */,
+			);
+			name = SuperMarketUITests;
+			productName = SuperMarketUITests;
+			productReference = EB2BC63420B34C8A00867734 /* SuperMarketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2BC60D20B34C8900867734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MohamedSawy;
+				TargetAttributes = {
+					EB2BC61420B34C8900867734 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EB2BC62820B34C8A00867734 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB2BC61420B34C8900867734;
+					};
+					EB2BC63320B34C8A00867734 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB2BC61420B34C8900867734;
+					};
+				};
+			};
+			buildConfigurationList = EB2BC61020B34C8900867734 /* Build configuration list for PBXProject "SuperMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2BC60C20B34C8900867734;
+			productRefGroup = EB2BC61620B34C8900867734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2BC61420B34C8900867734 /* SuperMarket */,
+				EB2BC62820B34C8A00867734 /* SuperMarketTests */,
+				EB2BC63320B34C8A00867734 /* SuperMarketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2BC61320B34C8900867734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BC62320B34C8A00867734 /* LaunchScreen.storyboard in Resources */,
+				EB2BC62020B34C8A00867734 /* Assets.xcassets in Resources */,
+				EB2BC61E20B34C8A00867734 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2BC62720B34C8A00867734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2BC63220B34C8A00867734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2BC61120B34C8900867734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BC61B20B34C8A00867734 /* ViewController.swift in Sources */,
+				EB2BC61920B34C8900867734 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2BC62520B34C8A00867734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BC62E20B34C8A00867734 /* SuperMarketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2BC63020B34C8A00867734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BC63920B34C8A00867734 /* SuperMarketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB2BC62B20B34C8A00867734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2BC61420B34C8900867734 /* SuperMarket */;
+			targetProxy = EB2BC62A20B34C8A00867734 /* PBXContainerItemProxy */;
+		};
+		EB2BC63620B34C8A00867734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2BC61420B34C8900867734 /* SuperMarket */;
+			targetProxy = EB2BC63520B34C8A00867734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB2BC61C20B34C8A00867734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2BC61D20B34C8A00867734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB2BC62120B34C8A00867734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2BC62220B34C8A00867734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2BC63B20B34C8A00867734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2BC63C20B34C8A00867734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2BC63E20B34C8A00867734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawy.SuperMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB2BC63F20B34C8A00867734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawy.SuperMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB2BC64120B34C8A00867734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawy.SuperMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMarket.app/SuperMarket";
+			};
+			name = Debug;
+		};
+		EB2BC64220B34C8A00867734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawy.SuperMarketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMarket.app/SuperMarket";
+			};
+			name = Release;
+		};
+		EB2BC64420B34C8A00867734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SuperMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawy.SuperMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SuperMarket;
+			};
+			name = Debug;
+		};
+		EB2BC64520B34C8A00867734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SuperMarketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sawy.SuperMarketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SuperMarket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2BC61020B34C8900867734 /* Build configuration list for PBXProject "SuperMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2BC63B20B34C8A00867734 /* Debug */,
+				EB2BC63C20B34C8A00867734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2BC63D20B34C8A00867734 /* Build configuration list for PBXNativeTarget "SuperMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2BC63E20B34C8A00867734 /* Debug */,
+				EB2BC63F20B34C8A00867734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB2BC64020B34C8A00867734 /* Build configuration list for PBXNativeTarget "SuperMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2BC64120B34C8A00867734 /* Debug */,
+				EB2BC64220B34C8A00867734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB2BC64320B34C8A00867734 /* Build configuration list for PBXNativeTarget "SuperMarketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2BC64420B34C8A00867734 /* Debug */,
+				EB2BC64520B34C8A00867734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2BC60D20B34C8900867734 /* Project object */;
+}
